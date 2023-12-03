@@ -90,8 +90,7 @@ def dos2():
 
 
 def usage():
-	print (''' \033[92m this tool is programed by ASLEFNDAR	
-	print (''' \033[92m	ASLEFNDAR-DDOS-ATACK Tool v1.0
+	print (''' \033[92m this tool is programed by ASLEFNDAR
 	It is the end user's responsibility to obey all applicable laws.
 	It is just for server testing script. Your ip is visible. \n
 	usage : python3 hammer.py [-s] [-p] [-t]
