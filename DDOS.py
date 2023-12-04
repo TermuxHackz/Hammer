@@ -93,16 +93,14 @@ def usage():
 	print (''' \033[92m	Welcome in my world ♡
 
 	this tool is programed by ASLEFNDAR  
-                  
-                                         
-  تم صنع هذه الاداه للهجوم علي المواقع الاكترونية و حجب الخدمه عنها                
-و تم تطوير هذه الاداه و بنائها و تطويرها بواسطة المطور أســلفـندار الـيوتيؤبر                   
-        : و برجاء اتباع تسلسل بدء الهجمه و عليك العلم انه                   
-
-  ❴ كلما زادت عدد اجهزة حجب الخدمه ، كلما زادت فرصه اغلاق الموقع ❵            
-
-و إذا وجدت اي مشكله لا تتردد في التواصل معي علي مواقع التواصل التالية                                     
-                                                                                                                                     
+ This tool was created to attack websites and block service 
+ from them This tool was developed, built and developed 
+ by developer ASLEFNDAR EL YouTuber Please follow the sequence 
+ of starting the attack and you should know that :
+ 
+ ❴ The greater the number of DoS devices, the greater the chance of the site being shut down ❵ 
+ 
+ If you find any problem, do not hesitate to contact me on the following social media sites                                                 
                                                                                         
  _____________________________________________________
                     ⚶ contect ⚶
