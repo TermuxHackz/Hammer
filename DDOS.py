@@ -90,7 +90,7 @@ def dos2():
 
 
 def usage():
-	print (    \033[92m	Welcome in my dream ♡
+	print (    \033[92m    "Welcome in my dream ♡
 
 ┌─────────────────────────────────────────────────────────┐
 │                                                                              │
